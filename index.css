@@ -47,8 +47,16 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 10rem;
     font-family: 'Chelsea Market', cursive;
+    margin-bottom: 2%;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.right div p {
+    font-size: 1.5rem;
 }
 section {
     padding: 4% 0;
@@ -101,11 +109,33 @@ nav a {
 .right {
     width: 60%;
     position: absolute;
-    top: 45%;
+    top: 25%;
 }
 .middletop {
     background-color: #DDB9A3;
 }
 .footer {
     background-color: #F9E7DC;
+}
+.middletop {
+    margin: 0 2%;
+}
+.middle {
+    text-align: center;
+}
+.upperimg {
+    width: 15%;
+    display: inline-block;
+}
+.uppertext {
+    width: 30%;
+    display: inline-block;
+}
+.lowerimg {
+    width: 15%;
+    display: inline-block;
+}
+.lowertext {
+    width: 30%;
+    display: inline-block;
 }
