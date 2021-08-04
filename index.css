@@ -1,0 +1,173 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+/*Universal Selector Styles*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+ }
+
+/*General Styles*/
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-size: 10rem;
+    font-family: 'Chelsea Market', cursive;
+    margin-bottom: 2%;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.right div p {
+    font-size: 1.5rem;
+}
+section {
+    padding: 4% 0;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Header Section Styles*/
+nav {
+    padding: 2% 0;
+}
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/*Top Section Styles*/
+.top {
+    position: relative;
+}
+.left, .right {
+    display: inline-block;
+    text-align: center;
+}
+.left {
+    width: 35%;
+}
+.left img {
+    border-radius: 50%;
+    width: 80%;
+}
+.right {
+    width: 60%;
+    position: absolute;
+    top: 25%;
+}
+/*Middletop Styles*/
+.middletop {
+    background-color: #DDB9A3;
+    padding: 0 2%;
+    margin: 0 3%;
+}
+.middletop div p {
+    padding: 1% 0;
+    color: white;
+}
+/*Middle Styles*/
+.middle {
+    text-align: center;
+}
+.upperimg {
+    width: 15%;
+    display: inline-block;
+}
+.uppertext {
+    width: 25%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.lowerimg {
+    width: 15%;
+    display: inline-block;
+    margin-top: 5%;
+}
+.lowertext {
+    width: 25%;
+    display: inline-block;
+}
+/*Botom Image Section*/
+.bottomimg {
+    padding: 0;  
+}
+.bottomimg img {
+    width: 100%;
+}
+/*Footer Styles*/
+.footer {
+    background-color: #F9E7DC;
+}
+/*Pseudoselector Styles*/
+.orange:hover {
+    font-size: 2rem;
+}
+.blue:hover {
+    font-size: 2rem;
+}
+.yellow:hover {
+    font-size: 2rem;
+}
+.uppertext p span:hover {
+    font-size: 1.8rem;
+    color: blue;
+}
+.lowertext p span:hover {
+    font-size: 1.8rem;
+    color: blue;
+}
